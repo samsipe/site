@@ -1,7 +1,7 @@
 site
 ====
 
-My website, [ottosipe.com](https://ottosipe.com).
+My website, [samsipe.com](https://samsipe.com).
 
 ### To Install:
 
