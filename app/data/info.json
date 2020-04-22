@@ -1,8 +1,8 @@
 {
-  "name": "Otto Sipe",
-  "email": "otto@sipe.io",
-  "tagline": "Maker - Entrepreneur - Artist",
-  "image": "/images/otto.jpg",
+  "name": "Sam Sipe",
+  "email": "sipe@sipe.io",
+  "tagline": "Naval Aviator - Offshore Sailor",
+  "image": "/images/sam.jpg",
   "pages": [
     {
       "name": "About",
@@ -11,20 +11,15 @@
     {
       "name": "Posts",
       "hash": "posts",
-      "noshow": true
+      "noshow": false
     },
     {
-      "name": "Projects",
+      "name": "Sailing",
       "hash": "projects"
     },
     {
-      "name": "Jobs",
+      "name": "Aviation",
       "hash": "work"
-    },
-    {
-      "name": "Art",
-      "hash": "art",
-      "noshow": true
     }
   ]
 }
