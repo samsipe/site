@@ -1,7 +1,7 @@
 site
 ====
 
-My website, [samsipe.com](https://samsipe.com).
+My website, [samsipe.com](https://samsipe.com), thanks for all of the help setting this up Otto. 
 
 ### To Install:
 
