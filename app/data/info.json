@@ -1,7 +1,7 @@
 {
   "name": "Sam Sipe",
   "email": "sipe@sipe.io",
-  "tagline": "Naval Aviator - Offshore Sailor",
+  "tagline": "Aerospace Engineer | Pilot | Offshore Sailor",
   "image": "/images/sam.jpg",
   "pages": [
     {
@@ -11,7 +11,7 @@
     {
       "name": "Posts",
       "hash": "posts",
-      "noshow": false
+      "noshow": true
     },
     {
       "name": "Sailing",

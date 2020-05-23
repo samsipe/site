@@ -1,27 +1,30 @@
 {
-  "greeting": "Hi, I'm Otto.",
+  "greeting": "Hi, I'm Sam.",
   "about_me": [
-    "I’m a maker. I’m constantly tinkering, building, or fixing things - from mobile apps to combustion engines. I’m motivated by challenging work and excited about solving real problems.",
-    "I live and work in Brooklyn, where I lead engineers on an innovative team within Walmart. I used to live in Seattle, where I helped found a digital health startup, called Pillsy. I'm originally from Indianapolis and I graduated from the University of Michigan.",
-    "I love to meet new people and explore new places. In my free time I enjoy being outdoors, especially in the mountains or on the water."
+  	"I am an aerospace engineer, pilot, and offshore sailor.  I am a maker who is passionate about discovery, fixing things, and solving problems, big and small.",
+  	"An inventor at heart and an engineer by trade, I am always building something, like the massive rain barrel collection system for my house, my internet-connected espresso machine, or my hand-built cafe racer motorcycle.",
+	"From a young age I have been interested in aviation and spaceflight. I am a former Navy E-2D Advanced Hawkeye Pilot and commercial multi-engine rated pilot.  In college I designed, built, and launched a communications demonstration satellite with a team of undergrad students.",
+	"I am also a sailing coach, offshore racer, and USCG Licensed Master Captain. I have a personal commitment to sustainability and preserving the world’s oceans. I would like to continue to find ways to preserve and clean the world's waterways for future generations of mariners."
   ],
   "interests": [
-    "Sailing",
-    "Motorcycles",
-    "Ceramics",
-    "Food"
+    "Drones",
+    "Internet of Things",
+    "SCUBA Diving",
+    "Traveling",
+    "Cooking",
+    "Coffee"
   ],
-  "aspiration": "To build technologies that help make people happier and healthier.",
+  "objective": "To solve problems in new and creative ways",
   "education": [
     {
-      "name": "University of Michigan",
-      "dates": "Spring 2014",
-      "major": "BSE Computer Science",
-      "location": "Ann Arbor, MI",
+      "name": "United States Naval Academy",
+      "dates": "Class of 2014",
+      "major": "BSE Aerospace Engineering (Astronautical)",
+      "location": "Annapolis, MD",
       "bullets": [
-        "University Honors & Dean's List",
-        "Michigan Hackers - Executive Board",
-        "EECS 280/485 - Instructional Aid"
+        "Varsity Offshore Sailing Team",
+        "2014 Leadership Conference - CTO",
+        "Navy Beats - Co-founder"
       ]
     }
   ]

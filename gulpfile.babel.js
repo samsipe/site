@@ -125,7 +125,8 @@ gulp.task('serve', ['styles', 'views', 'scripts', 'fonts', 'data'], () => {
         '.tmp/styles/**/*.css',
         '.tmp/scripts/**/*.js',
         'app/images/**/*',
-        '.tmp/fonts/**/*'
+        '.tmp/fonts/**/*',
+        'app/data/*.json'
     ]).on('change', reload);
     
     gulp.watch('app/views/**/*', ['views']);
