@@ -17,6 +17,7 @@
                 <% for(var i in about_me) { %> 
                 p <%= about_me[i] %> 
                 <% } %> 
+        hr
         .section.row
             .col-md-6
                 h3 Objective
@@ -27,7 +28,7 @@
                     <% for(var i in interests) { %> 
                     li  <%= interests[i] %> 
                     <% } %> 
-                
+        hr        
         .section
             h3 Education
             .education
@@ -49,7 +50,7 @@
                                 li <%= education[i].bullets[j] %>
                             <% } %> 
                 <% } %> 
-
+        hr
         
     script(type="template")#projects_tmp
         .section
@@ -66,7 +67,7 @@
             p.content <%= info %>
             hr
 
-    script(type="template")#work_tmp
+    script(type="template")#resume_tmp
         .section
             span.date.pull-right <%= date %>
             h3.title <%= company %>

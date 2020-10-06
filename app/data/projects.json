@@ -1,74 +1,10 @@
  [
   {
-    "name": "InHome Delivery",
-    "date": "Spring 2019 - ",
-    "location": "Proj. Franklin at Walmart",
-    "award": "",
-    "info": "A delivery service that uses smart locks and garage openers to enable Walmart associates to deliver groceries directly to a customer's fridge. Deliveries are live-streamed from an associate's vestcam for customer peace of mind.",
-    "link": "https://inhome.walmart.com"
-  },
-  {
-    "name": "Smart Pill Bottle & App",
-    "date": "Fall 2015 - Spring 2019",
-    "location": "Pillsy",
-    "award": "",
-    "info": "A Bluetooth pill bottle that automatically tracks doses and beeps when a dose is missed. The bottle communicates with an app via Bluetooth and can warn a user if they've already taken a dose.",
-    "link": "https://pillsy.com"
-  },
-  {
-    "name": "Jam",
-    "date": "Fall 2013 - Spring 2015",
-    "location": "",
-    "award": "",
-    "info": "Cooperative music curation and discovery app that uses Bluetooth to identify nearby users and machine learning to build real-time playlists to incorporate everyone's tastes.",
-    "link": ""
-  },
-  {
-    "name": "Dots",
-    "date": "Fall 2013",
-    "location": "",
-    "award": "Side Project",
-    "info": "Webapp that will aggregate recent Facebook photo tags and build a visualization of social relationships.",
-    "link": "http://dots.ottosipe.com/"
-  },
-  {
-    "name": "MyTime",
-    "date": "Fall 2012 - Winter 2013",
-    "location": "",
-    "award": "",
-    "info": "An application for the University which helps students stay more organized by linking Google services with existing university schedule data.",
-    "link": ""
-  },
-  {
-    "name": "Kaffee",
-    "date": "Spring 2013",
-    "location": "AngelHack Seattle",
-    "award": "2nd Place Hack",
-    "info": "A new way to visualize the popularity and locations of local businesses.",
-    "link": ""
-  },
-  {
-    "name": "Mustard",
-    "date": "Winter 2013",
-    "location": "MHacks Hackathon",
-    "award": "Top 10 Hack",
-    "info": "A real-time note-taking app that allows a group of students to take notes together during class.",
-    "link": ""
-  },
-  {
-    "name": "Artichoke Editor",
-    "date": "Winter 2013",
-    "location": "PennApps Hackathon",
-    "award": "Top 20 Hack",
-    "info": "Online code editor that allows a group of users to program and video chat simultaneously. The project was intended as a solution for college coding projects or interviews.",
-    "link": ""
-  },
-  {
-    "name": "Smart Boots",
-    "date": "Winter 2012 - Winter 2013",
-    "location": "University of Michigan",
-    "award": "",
-    "info": "Lead a research project at Michigan, working with MIT Lincoln Lab. Developing suite of gait and weight analysis algorithms and custom Bluetooth hardware.",
-    "link": ""
+    "name": "Project Name",
+    "date": "Date to Date",
+    "location": "Anywehre",
+    "award": "Award Name",
+    "info": "Some info about a thing",
+    "link": "https://google.com"
   }
 ]

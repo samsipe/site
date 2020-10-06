@@ -14,12 +14,21 @@
       "noshow": true
     },
     {
-      "name": "Sailing",
-      "hash": "projects"
+      "name": "Projects",
+      "hash": "projects",
+      "noshow": true
+    },
+    {
+      "name": "Resume",
+      "hash": "resume"
     },
     {
       "name": "Aviation",
-      "hash": "work"
+      "hash": "aviation"
+    },
+    {
+      "name": "Sailing",
+      "hash": "sailing"
     }
   ]
 }
