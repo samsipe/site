@@ -1,17 +1,9 @@
 .hide
-    script(type="template")#posts_tmp
-        .section
-            span.date.pull-right <%= date %> 
-            h2.title <%= title %>
-            span.dot.pull-right
-            h4.subtitle <%= subtitle %>
-            hr
-            p.content <%= content %>
-
     script(type="template")#about_tmp
 
-        h2.greeting <%= greeting %>
-
+        .section
+            h2.greeting <%= greeting %>
+            
         .section
             .about_me  
                 <% for(var i in about_me) { %> 
@@ -20,8 +12,11 @@
         hr
         .section.row
             .col-md-6
-                h3 Objective
-                p.objective <%= objective %>
+                h3 Objectives
+                ul.objectives
+                    <% for(var i in objectives) { %> 
+                    li  <%= objectives[i] %> 
+                    <% } %> 
             .col-md-6
                 h3 Interests
                 ul.interests
@@ -34,16 +29,15 @@
             .education
                 <% for(var i in education) { %>
                 .school
-
                     <% if(i!=0) { %> 
                     hr
                     <% } %>
                     .row
                         .col-md-6
                             h4.name <%= education[i].name %> 
-                                span.location - <%= education[i].location  %> 
-                            h5.major <%= education[i].major  %>
-                            span.date <%= education[i].dates  %>
+                            h5.location <%= education[i].location  %> 
+                            p.major <%= education[i].major  %>
+                            p.year <%= education[i].year  %>
                         .col-md-6
                             <% for(var j in education[i].bullets) { %>
                             ul.bullets
@@ -51,28 +45,65 @@
                             <% } %> 
                 <% } %> 
         hr
-        
-    script(type="template")#projects_tmp
         .section
-            span.date.pull-right <%= date %> 
+            h3 Connect
+            .contact
+                .row
+                    .col-md-12
+                        <% for(var j in contact[i]) { %>
+                            ul.title
+                                li
+                                    a.link(href!="<%= contact[i][j]  %>", target="_blank") <%= j %>
+                        <% } %> 
+        hr
+
+    script(type="template")#posts_tmp
+        .section
+            h5.date <%= date %> 
             h3.title
                 <% if(link != "") { %>
-                a(href!="<%= link %>", target="_blank") <%= name %>
+                a.link(href!="<%= link %>", target="_blank") <%= title %>
                 <% } else { %>
-                <%= name %>
+                <%= title %>
                 <% } %>
-            span.dot.pull-right
+            .dot
+            h4.subtitle <%= subtitle %>
+            hr
+            p.content <%= content %>
+        hr
+
+    script(type="template")#projects_tmp
+        .section
+            h5.date <%= date %>
+            h3.title
+                <% if(link != "") { %>
+                a.link(href!="<%= link %>", target="_blank") <%= project %>
+                <% } else { %>
+                <%= project %>
+                <% } %>
+            .dot
             h4.subtitle <%= award %>
             h5.location <%= location %>
-            p.content <%= info %>
-            hr
+            .content 
+                <% for(var i in info) { %> 
+                p  <%= info[i] %> 
+                <% } %> 
+        hr
 
-    script(type="template")#resume_tmp
+    script(type="template")#experience_tmp
         .section
-            span.date.pull-right <%= date %>
-            h3.title <%= company %>
-            span.dot.pull-right
+            h5.date <%= date %>
+            h3.title
+                <% if(link != "") { %>
+                a.link(href!="<%= link %>", target="_blank") <%= company %>
+                <% } else { %>
+                <%= company %>
+                <% } %>
+            .dot
             h4.subtitle <%= position %>
             h5.location <%= location %>
-            p.content <%= info %>
-            hr
+            .content 
+                <% for(var i in info) { %> 
+                p  <%= info[i] %> 
+                <% } %> 
+        hr

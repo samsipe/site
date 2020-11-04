@@ -1,34 +1,37 @@
 {
   "name": "Sam Sipe",
-  "email": "sipe@sipe.io",
   "tagline": "Aerospace Engineer | Pilot | Offshore Sailor",
   "image": "/images/sam.jpg",
   "pages": [
     {
       "name": "About",
-      "hash": "about"
-    },
-    {
-      "name": "Posts",
-      "hash": "posts",
-      "noshow": true
+      "hash": "about",
+      "show": true
     },
     {
       "name": "Projects",
       "hash": "projects",
-      "noshow": true
+      "show": false
     },
     {
-      "name": "Resume",
-      "hash": "resume"
+      "name": "Experience",
+      "hash": "experience",
+      "show": true
     },
     {
       "name": "Aviation",
-      "hash": "aviation"
+      "hash": "aviation",
+      "show": false
     },
     {
       "name": "Sailing",
-      "hash": "sailing"
+      "hash": "sailing",
+      "show": false
+    },    
+    {
+      "name": "Posts",
+      "hash": "posts",
+      "show": false
     }
   ]
 }

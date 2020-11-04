@@ -21,12 +21,22 @@ var app = app || {};
             },
             splash: function() {
 
+                $('.splash').show();
+                animate($('.splash'), 'fadeInUp');
+                var interval = setInterval(function(){
+                    animate($('.splash .me'), 'bounce');
+                }, 1000);
+
+                $('.splash .me').on(function() {
+                    clearInterval(interval);
+                    animate($('.side'), 'fadeInLeft');
+                });
+
                 var that = this;
                 setTimeout(function() {
-                    $('.splash').hide();
-                    animate($('.side'), 'fadeInRight');
+                    animate($('.side'), 'fadeInLeft');
                     that.pageNav('about');
-                }, 300);
+                }, 2000);
 
             },
             pageNav: function (path) {

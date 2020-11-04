@@ -1,0 +1,75 @@
+[
+  {
+    "company": "AirIn Technologies, Inc.",
+    "location": "Chantilly, VA",
+    "position": "Engineering Associate",
+    "date": "Jun 2020 – Present",
+    "info": [
+      "Developing a Machine Learning pipeline to monitor anthropogenic changes worldwide from satellite imagery"
+    ],
+    "link": "https://www.airintech.com/index.html"
+  },
+  {
+    "company": "E-2D Fleet Integration Team",
+    "location": "Norfolk, VA",
+    "position": "Consultant",
+    "date": "May 2019 – May 2020",
+    "info": [
+      "Aided development and test of new deployable E-2D aircraft simulator",
+      "Tested network capabilities between different carrier aircraft simulators"
+    ],
+    "link": ""
+  },
+  {
+    "company": "VAW-121 “Bluetails”",
+    "location": "Norfolk, VA",
+    "position": "Naval Aviator",
+    "date": "Sep 2017 — May 2020",
+    "info": [
+      "Division officer, pilot training officer, ground safety officer", 
+      "Combat deployment – Operation Inherent Resolve"
+    ],
+    "link": ""
+  },
+  {
+    "company": "Navy Flight Training",
+    "location": "Gulf Coast, USA",
+    "position": "Student Naval Aviator",
+    "date": "Aug 2014 — Sep 2017",
+    "info": [
+      "Trained in T-6B, T-44C, T-45C, and E-2D",
+      "Earned wings in Dec 2016"
+    ],
+    "link": ""
+  },
+  {
+    "company": "Langley Satellite Project",
+    "location": "Annapolis, MD",
+    "position": "Project Lead",
+    "date": "Feb 2012 — Aug 2014",
+    "info": [
+      "Designed, built, and launched a $250k demonstration satellite"
+    ],
+    "link": ""
+  },
+  {
+    "company": "NASA Johnson Space Center",
+    "location": "Houston, TX",
+    "position": "Intern",
+    "date": "May 2013 — Jun 2013",
+    "info": [
+      "3D modeled spaceflight control system for the Astronaut Office"
+    ],
+    "link": ""
+  },
+  {
+    "company": "NASA Goddard Space Flight Center",
+    "location": "Washington, D.C.",
+    "position": "Intern",
+    "date": "Jul 2012 — Aug 2012",
+    "info": [
+      "Wrote software to analyze latency in the TDRS satellite system"
+    ],
+    "link": ""
+  }
+]

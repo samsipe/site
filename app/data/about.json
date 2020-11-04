@@ -1,31 +1,49 @@
-{
-  "greeting": "Hi, I'm Sam.",
-  "about_me": [
-  	"I am an aerospace engineer, pilot, and offshore sailor.  I am a maker who is passionate about discovery, fixing things, and solving problems, big and small.",
-  	"An inventor at heart and an engineer by trade, I am always building something, like the massive rain barrel collection system for my house, my internet-connected espresso machine, or my hand-built cafe racer motorcycle.",
-	"From a young age I have been interested in aviation and spaceflight. I am a former Navy E-2D Advanced Hawkeye Pilot and commercial multi-engine rated pilot.  In college I designed, built, and launched a communications demonstration satellite with a team of undergrad students.",
-	"I am also a sailing coach, offshore racer, and USCG Licensed Master Captain. I have a personal commitment to sustainability and preserving the world’s oceans. I would like to continue to find ways to preserve and clean the world's waterways for future generations of mariners."
-  ],
-  "interests": [
-    "Drones",
-    "Internet of Things",
-    "SCUBA Diving",
-    "Traveling",
-    "Cooking",
-    "Coffee"
-  ],
-  "objective": "To solve problems in new and creative ways",
-  "education": [
-    {
-      "name": "United States Naval Academy",
-      "dates": "Class of 2014",
-      "major": "BSE Aerospace Engineering (Astronautical)",
-      "location": "Annapolis, MD",
-      "bullets": [
-        "Varsity Offshore Sailing Team",
-        "Langley Satellite Project - Team Lead",
-        "2014 Leadership Conference - CTO"
-      ]
-    }
-  ]
-}
+[
+  {
+    "greeting": "Hi, I'm Sam...",
+    "about_me": [
+      "I am an aerospace engineer, pilot, and offshore sailor.  I am a maker who is passionate about discovery, fixing things, and solving problems, big and small.",
+      "An inventor at heart and an engineer by trade, I am always building something, like the massive rain barrel collection system for my house, my internet-connected espresso machine, or my hand-built cafe racer motorcycle.",
+      "From a young age I have been interested in aviation and spaceflight. I am a former Navy E-2D Advanced Hawkeye Pilot and commercial multi-engine rated pilot.  In college I designed, built, and launched a communications demonstration satellite with a team of undergrad students.",
+      "I am also a sailing coach, offshore racer, and USCG Licensed Master Captain. I have a personal commitment to sustainability and preserving the world’s oceans. I would like to continue to find ways to preserve and clean the world's waterways for future generations of mariners."
+    ],
+    "interests": [
+      "Drones",
+      "Internet of Things",
+      "SCUBA Diving",
+      "Traveling",
+      "Cooking",
+      "Coffee"
+    ],
+    "objectives": [
+      "Make something new, <i>in the cloud</i>",
+      "Become a Certified Flight Instructor",
+      "Sail in another major ocean race",
+      "Make that perfect oatmilk cortado",
+      "Be carbon neutral by 2021"
+    ],
+    "education": [
+      {
+        "name": "United States Naval Academy",
+        "year": "Class of 2014",
+        "major": "BSE Aerospace Engineering (Astronautical)",
+        "location": "Annapolis, MD",
+        "bullets": [
+          "Varsity Offshore Sailing Team",
+          "Langley Satellite Project - Team Lead",
+          "2014 Leadership Conference - CTO"
+        ]
+      }
+    ],
+    "contact": [
+      {
+        "Email": "mailto:sipe@sipe.io",  
+        "Linkedin": "https://www.linkedin.com/in/samsipe/",
+        "Github": "https://github.com/samsipe",
+        "YouTube": "https://www.youtube.com/user/samsipe",
+        "Venmo": "https://venmo.com/samsipe",
+        "Medium": "https://medium.com/@samsipe"
+      }
+    ]
+  }
+]

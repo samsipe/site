@@ -1,14 +1,9 @@
 [
   {
     "date": "2016-04-07",
-    "title": "This is a Post.",
+    "title": "This is a Post",
     "subtitle": "Hello World",
-    "content": "This is a test post!"
-  },
-  {
-    "date": "2018-02-19",
-    "title": "This is a Post.",
-    "subtitle": "Hello World",
-    "content": "This is a test post!"
+    "content": "This is a test post!",
+    "link": "https://samsipe.com"
   }
 ]

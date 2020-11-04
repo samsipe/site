@@ -1,10 +1,12 @@
  [
   {
-    "name": "Project Name",
+    "project": "Project Name",
     "date": "Date to Date",
-    "location": "Anywehre",
+    "location": "Somewhere",
     "award": "Award Name",
-    "info": "Some info about a thing",
-    "link": "https://google.com"
+    "info": [
+      "Some info about a thing"
+    ],
+    "link": "https://samsipe.com"
   }
 ]

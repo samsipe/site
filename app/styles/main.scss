@@ -2,7 +2,6 @@ $icon-font-path: '../fonts/';
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 // endbower
 
 $popColor: red;
@@ -28,14 +27,45 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-p,li {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 15px;
+h1, h2 {
+  font-weight: 900;
 }
 
-h1, h2, h3 {
-  font-weight: 700;
+h3 {
+  font-weight: 600;
+}
+
+p,li {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: rgb(50,50,50);
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  color: $popColor;
+}
+
+a.link:after{
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+a.link:after{
+  content: '...';
+}
+
+a.link:hover:after{
+  margin-left: 10px;
+  content: '...';
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  transform: translateX(-20px);
+  opacity: 1;
 }
 
 .fixed {
@@ -69,13 +99,12 @@ h1, h2, h3 {
   cursor: pointer;
 }
 
-
 .nav_bar {
   margin-top: 30px;
 }
 
 .nav {
-  font-size: 22px;
+  font-size: 1.6em;
   font-weight: 700;
   line-height: 1.6em;
   cursor: pointer;
@@ -91,6 +120,14 @@ h1, h2, h3 {
 
 .page_name {
   text-align: right;
+}
+
+.dot {
+  float: right;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background: $popColor;
 }
 
 @-webkit-keyframes slide {
@@ -119,7 +156,7 @@ li {
 }
 
 ul {
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 .scroll {
@@ -132,38 +169,30 @@ ul {
 }
 
 .greeting {
-  font-size: 32px;
   margin-bottom: 30px;
 }
 
 .page {
   padding: 40px 0;
-  .title {
-    font-weight: 700;
+  .date {
+    float: right;
+    font-weight: bold;
   }
-  .subtitle {
-
-  }
-  .date, .location {
-    font-weight: 300;
-  }
-}
-
-.school {
-  .name {
-    font-weight: 700;
+  .location {
+    font-style: italic;
+    font-weight: 600;
   }
 }
 
 @media (max-width: 767px) {
   .nav_bar {
-    // float: right;
+    float: center;
     padding: 10px 10px 0px 10px;
     margin: 0;
   }
   .nav {
-    font-size: 18px;
-    line-height: .8em;
+    font-size: 1.5em;
+    line-height: 1em;
     padding-right: 12px;
     display: inline-block;
   }
@@ -191,6 +220,16 @@ ul {
 @media (max-width: 550px) {
   .splash {
     margin-top: 30%;
+  }
+  .nav {
+    font-size: 1em;
+  }
+  .dot {
+    float: left;
+    height: 0px;
+    width: 0px;
+    border-radius: 0%;
+    background: white;
   }
 }
 
@@ -221,22 +260,8 @@ ul {
   margin: 0 auto;
 }
 
-.dot {
-  height: 10px;
-  width: 10px;
-  border-radius: 100%;
-  background: $popColor;
-}
-
 .content {
   margin-right: 20px;
-}
-
-// about
-
-.school .location {
-  font-size: 15px;
-  font-weight: 300;
 }
 
 // Scollbars
