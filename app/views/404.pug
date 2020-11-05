@@ -1,8 +1,21 @@
 extends layout
 
-block splash 
+block splash
 
-    h1 404
-    h3 Something isn't right here 
-    a(href="/#about") Home
-    
+    .loader 
+        h4 searching...
+
+block side
+    .header
+        a(href="/#about")
+            img.me(src=image)
+
+        .nav_bar
+            a.nav(href="/#about") Back
+
+block content
+
+    .notfound
+        .section
+            h1 404
+            p Something isn't right here

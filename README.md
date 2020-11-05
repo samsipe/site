@@ -31,3 +31,8 @@ My website, [samsipe.com](https://samsipe.com), thanks for all of the help setti
     ```
 
 - `gulp deploy` will deploy to AWS S3.
+
+### To run a Browser Test:
+
+- `gulp serve`  in one terminal window 
+- `docker run --rm -v "$(pwd):/sitespeed.io" sitespeedio/sitespeed.io:15.6.4 -b chrome http://localhost:9000` in another 

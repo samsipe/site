@@ -130,6 +130,12 @@ a.link:hover:after{
   background: $popColor;
 }
 
+.notfound {
+  height: 100%;
+  margin-top: 10%;
+  text-align: center;
+}
+
 @-webkit-keyframes slide {
     0% { margin-right: 0px; }
     100% { margin-right: -6px; }
